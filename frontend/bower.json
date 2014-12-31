@@ -1,0 +1,11 @@
+{
+  "name": "growlers",
+  "private": "true",
+  "devDependencies": {
+    "ionic": "driftyco/ionic-bower#1.0.0-beta.14",
+    "angular-leaflet-directive": "~0.7.10"
+  },
+  "dependencies": {
+    "ngCordova": "~0.1.9-alpha"
+  }
+}

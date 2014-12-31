@@ -1,0 +1,5 @@
+{
+  "name": "growlers",
+  "app_id": "",
+  "gulpStartupTasks": ["watch"]
+}
