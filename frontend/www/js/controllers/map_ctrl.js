@@ -9,7 +9,11 @@ var MapCtrl = function($scope, $cordovaGeolocation, $ionicPopup, Store, Actions,
           lng: parseFloat(brewery.longitude),
           message: brewery.title,
           focus: false,
-          drag: false
+          drag: false,
+          icon: {
+            type: "awesomeMarker",
+            markerColor: "blue"
+          }
         });
       });
     }
@@ -20,7 +24,11 @@ var MapCtrl = function($scope, $cordovaGeolocation, $ionicPopup, Store, Actions,
     defaults: {
       tileLayer: 'http://{s}.tile.osm.org/{z}/{x}/{y}.png',
       maxZoom: 18,
-      zoomControlPosition: 'bottomleft'
+      zoomControlPosition: 'bottomleft',
+      tileLayerOptions: {
+        detectRetina: true,
+        reuseTiles: true
+      }
     },
     center: {
       lat: 49.26379240,

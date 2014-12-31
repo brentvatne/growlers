@@ -3,7 +3,8 @@
   "private": "true",
   "devDependencies": {
     "ionic": "driftyco/ionic-bower#1.0.0-beta.14",
-    "angular-leaflet-directive": "~0.7.10"
+    "angular-leaflet-directive": "~0.7.10",
+    "Leaflet.awesome-markers": "~2.0.2"
   },
   "dependencies": {
     "ngCordova": "~0.1.9-alpha"
